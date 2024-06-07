@@ -1070,3 +1070,21 @@
 1717764682: New client connected from 172.24.0.1:61548 as mqttx_63c4fe09 (p5, c1, k60).
 1717764732: New connection from 172.24.0.1:61562 on port 1883.
 1717764732: New client connected from 172.24.0.1:61562 as service (p2, c1, k30).
+1717764850: Client service closed its connection.
+1717764851: New connection from 172.24.0.1:61568 on port 1883.
+1717764851: New client connected from 172.24.0.1:61568 as service (p2, c1, k30).
+1717764902: Client service closed its connection.
+1717764903: New connection from 172.24.0.1:61572 on port 1883.
+1717764903: New client connected from 172.24.0.1:61572 as service (p2, c1, k30).
+1717764925: Client service closed its connection.
+1717764926: New connection from 172.24.0.1:61576 on port 1883.
+1717764926: New client connected from 172.24.0.1:61576 as service (p2, c1, k30).
+1717764993: Client service closed its connection.
+1717764994: New connection from 172.24.0.1:61580 on port 1883.
+1717764994: New client connected from 172.24.0.1:61580 as service (p2, c1, k30).
+1717765024: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717765030: New connection from 172.24.0.1:61584 on port 1883.
+1717765030: New client connected from 172.24.0.1:61584 as mqttx_63c4fe09 (p5, c1, k60).
+1717765390: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717765396: New connection from 172.24.0.1:61588 on port 1883.
+1717765396: New client connected from 172.24.0.1:61588 as mqttx_63c4fe09 (p5, c1, k60).

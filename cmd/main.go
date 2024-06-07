@@ -1,17 +1,16 @@
 package main
 
 import (
-	"embed"
+	"fmt"
 	"github.com/montediogo/home/src/db"
+	"github.com/montediogo/home/src/db/migrator"
 	"github.com/montediogo/home/src/device"
-	"github.com/montediogo/home/src/migrator"
 	"github.com/montediogo/home/src/mqtt"
 	"log"
 )
 
-var MigrationsFS embed.FS
-
 func main() {
+	fmt.Println("Initializing home automation app")
 	databaseConnection := db.Connect("mysql", "user:password@tcp(localhost:3306)/home-automation?multiStatements=true")
 	mqttConnection, err := mqtt.Connect("service", "tcp://localhost:1883")
 	if err != nil {
@@ -29,6 +28,7 @@ func main() {
 	}
 	deviceMqtt.InitializeMqttHandler()
 
+	fmt.Println("Home automation app is up and running")
 	deviceHttp := device.Api{
 		MqttClient: mqttConnection,
 		Db:         databaseConnection,

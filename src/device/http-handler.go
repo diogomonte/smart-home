@@ -16,6 +16,8 @@ type Api struct {
 
 func (api *Api) InitializeAPI() {
 	http.HandleFunc("GET /devices", api.getDevices)
+	http.HandleFunc("POST /devices/{deviceId}/register", api.register)
+	http.HandleFunc("POST /devices/{deviceId}/approve", api.approve)
 	http.HandleFunc("POST /devices/{deviceId}/action", api.sendMessageToDevice)
 	err := http.ListenAndServe(":8090", nil)
 	if err != nil {
@@ -52,4 +54,12 @@ func (api *Api) sendMessageToDevice(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Error publishing message to device", http.StatusInternalServerError)
 		return
 	}
+}
+
+func (api *Api) register(writer http.ResponseWriter, r *http.Request) {
+
+}
+
+func (api *Api) approve(writer http.ResponseWriter, request *http.Request) {
+
 }
