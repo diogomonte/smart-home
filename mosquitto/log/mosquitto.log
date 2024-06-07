@@ -1,0 +1,1072 @@
+1716729025: mosquitto version 2.0.18 starting
+1716729025: Config loaded from /mosquitto/config/mosquitto.conf.
+1716729025: Opening ipv4 listen socket on port 1883.
+1716729025: Opening ipv6 listen socket on port 1883.
+1716729025: mosquitto version 2.0.18 running
+1716729027: New connection from 172.20.0.1:60650 on port 1883.
+1716729027: New client connected from 172.20.0.1:60650 as mqttx_63c4fe09 (p5, c1, k60).
+1716729152: New connection from 172.20.0.1:60652 on port 1883.
+1716729152: New client connected from 172.20.0.1:60652 as mqttx_ef4aa895 (p5, c1, k60).
+1716729159: Client mqttx_ef4aa895 disconnected.
+1716729589: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716729594: New connection from 172.20.0.1:60668 on port 1883.
+1716729594: New client connected from 172.20.0.1:60668 as mqttx_63c4fe09 (p5, c1, k60).
+1716730489: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716730494: New connection from 172.20.0.1:60776 on port 1883.
+1716730494: New client connected from 172.20.0.1:60776 as mqttx_63c4fe09 (p5, c1, k60).
+1716730826: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1716730879: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716730884: New connection from 172.20.0.1:60778 on port 1883.
+1716730884: New client connected from 172.20.0.1:60778 as mqttx_63c4fe09 (p5, c1, k60).
+1716735579: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716735585: New connection from 172.20.0.1:60780 on port 1883.
+1716735585: New client connected from 172.20.0.1:60780 as mqttx_63c4fe09 (p5, c1, k60).
+1716741607: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716742621: New connection from 172.20.0.1:60782 on port 1883.
+1716742621: New client connected from 172.20.0.1:60782 as mqttx_63c4fe09 (p5, c1, k60).
+1716749675: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716749680: New connection from 172.20.0.1:60784 on port 1883.
+1716749680: New client connected from 172.20.0.1:60784 as mqttx_63c4fe09 (p5, c1, k60).
+1716750982: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716750988: New connection from 172.20.0.1:60786 on port 1883.
+1716750988: New client connected from 172.20.0.1:60786 as mqttx_63c4fe09 (p5, c1, k60).
+1716751302: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1716751342: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716751348: New connection from 172.20.0.1:60788 on port 1883.
+1716751348: New client connected from 172.20.0.1:60788 as mqttx_63c4fe09 (p5, c1, k60).
+1716751702: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716751707: New connection from 172.20.0.1:60790 on port 1883.
+1716751707: New client connected from 172.20.0.1:60790 as mqttx_63c4fe09 (p5, c1, k60).
+1716758744: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716758749: New connection from 172.20.0.1:60792 on port 1883.
+1716758749: New client connected from 172.20.0.1:60792 as mqttx_63c4fe09 (p5, c1, k60).
+1716766086: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716767100: New connection from 172.20.0.1:60794 on port 1883.
+1716767100: New client connected from 172.20.0.1:60794 as mqttx_63c4fe09 (p5, c1, k60).
+1716775342: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716775348: New connection from 172.20.0.1:60796 on port 1883.
+1716775348: New client connected from 172.20.0.1:60796 as mqttx_63c4fe09 (p5, c1, k60).
+1716776405: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1716780509: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716780514: New connection from 172.20.0.1:60798 on port 1883.
+1716780514: New client connected from 172.20.0.1:60798 as mqttx_63c4fe09 (p5, c1, k60).
+1716787360: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716788379: New connection from 172.20.0.1:60800 on port 1883.
+1716788379: New client connected from 172.20.0.1:60800 as mqttx_63c4fe09 (p5, c1, k60).
+1716796294: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716796299: New connection from 172.20.0.1:60802 on port 1883.
+1716796299: New client connected from 172.20.0.1:60802 as mqttx_63c4fe09 (p5, c1, k60).
+1716796666: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716796671: New connection from 172.20.0.1:60804 on port 1883.
+1716796671: New client connected from 172.20.0.1:60804 as mqttx_63c4fe09 (p5, c1, k60).
+1716797014: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716797019: New connection from 172.20.0.1:60806 on port 1883.
+1716797019: New client connected from 172.20.0.1:60806 as mqttx_63c4fe09 (p5, c1, k60).
+1716797162: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1716797386: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716797391: New connection from 172.20.0.1:60808 on port 1883.
+1716797391: New client connected from 172.20.0.1:60808 as mqttx_63c4fe09 (p5, c1, k60).
+1716797734: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716797739: New connection from 172.20.0.1:60810 on port 1883.
+1716797739: New client connected from 172.20.0.1:60810 as mqttx_63c4fe09 (p5, c1, k60).
+1716798279: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716798284: New connection from 172.20.0.1:60812 on port 1883.
+1716798284: New client connected from 172.20.0.1:60812 as mqttx_63c4fe09 (p5, c1, k60).
+1716798627: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716798632: New connection from 172.20.0.1:60814 on port 1883.
+1716798632: New client connected from 172.20.0.1:60814 as mqttx_63c4fe09 (p5, c1, k60).
+1716800639: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716800644: New connection from 172.20.0.1:60816 on port 1883.
+1716800644: New client connected from 172.20.0.1:60816 as mqttx_63c4fe09 (p5, c1, k60).
+1716800776: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1716800987: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716800992: New connection from 172.20.0.1:60818 on port 1883.
+1716800992: New client connected from 172.20.0.1:60818 as mqttx_63c4fe09 (p5, c1, k60).
+1716807265: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716807270: New connection from 172.20.0.1:60820 on port 1883.
+1716807270: New client connected from 172.20.0.1:60820 as mqttx_63c4fe09 (p5, c1, k60).
+1716807613: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716807618: New connection from 172.20.0.1:60822 on port 1883.
+1716807618: New client connected from 172.20.0.1:60822 as mqttx_63c4fe09 (p5, c1, k60).
+1716807967: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716807972: New connection from 172.20.0.1:60824 on port 1883.
+1716807972: New client connected from 172.20.0.1:60824 as mqttx_63c4fe09 (p5, c1, k60).
+1716808333: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716808338: New connection from 172.20.0.1:60826 on port 1883.
+1716808338: New client connected from 172.20.0.1:60826 as mqttx_63c4fe09 (p5, c1, k60).
+1716808474: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1716818667: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716818672: New connection from 172.20.0.1:60828 on port 1883.
+1716818672: New client connected from 172.20.0.1:60828 as mqttx_63c4fe09 (p5, c1, k60).
+1716819189: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716819194: New connection from 172.20.0.1:60830 on port 1883.
+1716819194: New client connected from 172.20.0.1:60830 as mqttx_63c4fe09 (p5, c1, k60).
+1716819543: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716819548: New connection from 172.20.0.1:60832 on port 1883.
+1716819548: New client connected from 172.20.0.1:60832 as mqttx_63c4fe09 (p5, c1, k60).
+1716819909: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716819914: New connection from 172.20.0.1:60834 on port 1883.
+1716819914: New client connected from 172.20.0.1:60834 as mqttx_63c4fe09 (p5, c1, k60).
+1716821614: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1716821646: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716821651: New connection from 172.20.0.1:60836 on port 1883.
+1716821651: New client connected from 172.20.0.1:60836 as mqttx_63c4fe09 (p5, c1, k60).
+1716822380: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716822385: New connection from 172.20.0.1:60838 on port 1883.
+1716822385: New client connected from 172.20.0.1:60838 as mqttx_63c4fe09 (p5, c1, k60).
+1716822728: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716822733: New connection from 172.20.0.1:60840 on port 1883.
+1716822733: New client connected from 172.20.0.1:60840 as mqttx_63c4fe09 (p5, c1, k60).
+1716823094: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716823099: New connection from 172.20.0.1:60842 on port 1883.
+1716823099: New client connected from 172.20.0.1:60842 as mqttx_63c4fe09 (p5, c1, k60).
+1716823448: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716823453: New connection from 172.20.0.1:60844 on port 1883.
+1716823453: New client connected from 172.20.0.1:60844 as mqttx_63c4fe09 (p5, c1, k60).
+1716830583: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1716830935: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716830941: New connection from 172.20.0.1:60846 on port 1883.
+1716830941: New client connected from 172.20.0.1:60846 as mqttx_63c4fe09 (p5, c1, k60).
+1716831295: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716831301: New connection from 172.20.0.1:60848 on port 1883.
+1716831301: New client connected from 172.20.0.1:60848 as mqttx_63c4fe09 (p5, c1, k60).
+1716831817: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716831823: New connection from 172.20.0.1:60850 on port 1883.
+1716831823: New client connected from 172.20.0.1:60850 as mqttx_63c4fe09 (p5, c1, k60).
+1716832177: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716832183: New connection from 172.20.0.1:60852 on port 1883.
+1716832183: New client connected from 172.20.0.1:60852 as mqttx_63c4fe09 (p5, c1, k60).
+1716832384: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1716832537: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716832543: New connection from 172.20.0.1:60854 on port 1883.
+1716832543: New client connected from 172.20.0.1:60854 as mqttx_63c4fe09 (p5, c1, k60).
+1716832897: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716832903: New connection from 172.20.0.1:60856 on port 1883.
+1716832903: New client connected from 172.20.0.1:60856 as mqttx_63c4fe09 (p5, c1, k60).
+1716833257: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716833263: New connection from 172.20.0.1:60858 on port 1883.
+1716833263: New client connected from 172.20.0.1:60858 as mqttx_63c4fe09 (p5, c1, k60).
+1716833617: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716833623: New connection from 172.20.0.1:60860 on port 1883.
+1716833623: New client connected from 172.20.0.1:60860 as mqttx_63c4fe09 (p5, c1, k60).
+1716833977: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716833983: New connection from 172.20.0.1:60862 on port 1883.
+1716833983: New client connected from 172.20.0.1:60862 as mqttx_63c4fe09 (p5, c1, k60).
+1716836059: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1716840136: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716840141: New connection from 172.20.0.1:60864 on port 1883.
+1716840141: New client connected from 172.20.0.1:60864 as mqttx_63c4fe09 (p5, c1, k60).
+1716848364: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716848369: New connection from 172.20.0.1:60866 on port 1883.
+1716848369: New client connected from 172.20.0.1:60866 as mqttx_63c4fe09 (p5, c1, k60).
+1716854549: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716854555: New connection from 172.20.0.1:60868 on port 1883.
+1716854555: New client connected from 172.20.0.1:60868 as mqttx_63c4fe09 (p5, c1, k60).
+1716862352: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716862357: New connection from 172.20.0.1:60870 on port 1883.
+1716862358: New client connected from 172.20.0.1:60870 as mqttx_63c4fe09 (p5, c1, k60).
+1716869601: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716869607: New connection from 172.20.0.1:60872 on port 1883.
+1716869607: New client connected from 172.20.0.1:60872 as mqttx_63c4fe09 (p5, c1, k60).
+1716871574: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1716874858: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716874864: New connection from 172.20.0.1:60874 on port 1883.
+1716874864: New client connected from 172.20.0.1:60874 as mqttx_63c4fe09 (p5, c1, k60).
+1716880834: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716880839: New connection from 172.20.0.1:60876 on port 1883.
+1716880839: New client connected from 172.20.0.1:60876 as mqttx_63c4fe09 (p5, c1, k60).
+1716888005: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716888011: New connection from 172.20.0.1:60878 on port 1883.
+1716888011: New client connected from 172.20.0.1:60878 as mqttx_63c4fe09 (p5, c1, k60).
+1716895088: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716896127: New connection from 172.20.0.1:60880 on port 1883.
+1716896127: New client connected from 172.20.0.1:60880 as mqttx_63c4fe09 (p5, c1, k60).
+1716903182: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716903187: New connection from 172.20.0.1:60882 on port 1883.
+1716903187: New client connected from 172.20.0.1:60882 as mqttx_63c4fe09 (p5, c1, k60).
+1716904266: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1716910703: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716910708: New connection from 172.20.0.1:60884 on port 1883.
+1716910708: New client connected from 172.20.0.1:60884 as mqttx_63c4fe09 (p5, c1, k60).
+1716912765: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716912771: New connection from 172.20.0.1:60886 on port 1883.
+1716912771: New client connected from 172.20.0.1:60886 as mqttx_63c4fe09 (p5, c1, k60).
+1716913125: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716913131: New connection from 172.20.0.1:60888 on port 1883.
+1716913131: New client connected from 172.20.0.1:60888 as mqttx_63c4fe09 (p5, c1, k60).
+1716913936: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1716914085: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716914091: New connection from 172.20.0.1:60890 on port 1883.
+1716914091: New client connected from 172.20.0.1:60890 as mqttx_63c4fe09 (p5, c1, k60).
+1716914445: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716914451: New connection from 172.20.0.1:60892 on port 1883.
+1716914451: New client connected from 172.20.0.1:60892 as mqttx_63c4fe09 (p5, c1, k60).
+1716914805: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716914811: New connection from 172.20.0.1:60894 on port 1883.
+1716914811: New client connected from 172.20.0.1:60894 as mqttx_63c4fe09 (p5, c1, k60).
+1716915357: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716915362: New connection from 172.20.0.1:60896 on port 1883.
+1716915362: New client connected from 172.20.0.1:60896 as mqttx_63c4fe09 (p5, c1, k60).
+1716915699: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716915704: New connection from 172.20.0.1:60898 on port 1883.
+1716915704: New client connected from 172.20.0.1:60898 as mqttx_63c4fe09 (p5, c1, k60).
+1716915737: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1716916071: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716916076: New connection from 172.20.0.1:60900 on port 1883.
+1716916076: New client connected from 172.20.0.1:60900 as mqttx_63c4fe09 (p5, c1, k60).
+1716916419: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716916424: New connection from 172.20.0.1:60902 on port 1883.
+1716916424: New client connected from 172.20.0.1:60902 as mqttx_63c4fe09 (p5, c1, k60).
+1716916791: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716916796: New connection from 172.20.0.1:60904 on port 1883.
+1716916796: New client connected from 172.20.0.1:60904 as mqttx_63c4fe09 (p5, c1, k60).
+1716919062: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716919067: New connection from 172.20.0.1:60906 on port 1883.
+1716919067: New client connected from 172.20.0.1:60906 as mqttx_63c4fe09 (p5, c1, k60).
+1716923833: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716923838: New connection from 172.20.0.1:60908 on port 1883.
+1716923838: New client connected from 172.20.0.1:60908 as mqttx_63c4fe09 (p5, c1, k60).
+1716923872: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1716924205: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716924210: New connection from 172.20.0.1:60910 on port 1883.
+1716924210: New client connected from 172.20.0.1:60910 as mqttx_63c4fe09 (p5, c1, k60).
+1716924553: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716924558: New connection from 172.20.0.1:60912 on port 1883.
+1716924558: New client connected from 172.20.0.1:60912 as mqttx_63c4fe09 (p5, c1, k60).
+1716924925: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716924930: New connection from 172.20.0.1:60914 on port 1883.
+1716924930: New client connected from 172.20.0.1:60914 as mqttx_63c4fe09 (p5, c1, k60).
+1716925273: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716925278: New connection from 172.20.0.1:60916 on port 1883.
+1716925278: New client connected from 172.20.0.1:60916 as mqttx_63c4fe09 (p5, c1, k60).
+1716925645: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716925650: New connection from 172.20.0.1:60918 on port 1883.
+1716925650: New client connected from 172.20.0.1:60918 as mqttx_63c4fe09 (p5, c1, k60).
+1716925673: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1716925993: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716925998: New connection from 172.20.0.1:60920 on port 1883.
+1716925998: New client connected from 172.20.0.1:60920 as mqttx_63c4fe09 (p5, c1, k60).
+1716926365: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716926370: New connection from 172.20.0.1:60922 on port 1883.
+1716926370: New client connected from 172.20.0.1:60922 as mqttx_63c4fe09 (p5, c1, k60).
+1716941387: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716941392: New connection from 172.20.0.1:60924 on port 1883.
+1716941392: New client connected from 172.20.0.1:60924 as mqttx_63c4fe09 (p5, c1, k60).
+1716981415: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716981422: New connection from 172.20.0.1:60926 on port 1883.
+1716981422: New client connected from 172.20.0.1:60926 as mqttx_63c4fe09 (p5, c1, k60).
+1716997993: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1716998016: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716998021: New connection from 172.20.0.1:60928 on port 1883.
+1716998021: New client connected from 172.20.0.1:60928 as mqttx_63c4fe09 (p5, c1, k60).
+1716998382: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1716998387: New connection from 172.20.0.1:60930 on port 1883.
+1716998387: New client connected from 172.20.0.1:60930 as mqttx_63c4fe09 (p5, c1, k60).
+1717003803: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717003808: New connection from 172.20.0.1:60932 on port 1883.
+1717003808: New client connected from 172.20.0.1:60932 as mqttx_63c4fe09 (p5, c1, k60).
+1717004157: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717004162: New connection from 172.20.0.1:60934 on port 1883.
+1717004162: New client connected from 172.20.0.1:60934 as mqttx_63c4fe09 (p5, c1, k60).
+1717004523: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717004528: New connection from 172.20.0.1:60936 on port 1883.
+1717004528: New client connected from 172.20.0.1:60936 as mqttx_63c4fe09 (p5, c1, k60).
+1717004855: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717004925: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717004930: New connection from 172.20.0.1:60938 on port 1883.
+1717004930: New client connected from 172.20.0.1:60938 as mqttx_63c4fe09 (p5, c1, k60).
+1717005303: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717005308: New connection from 172.20.0.1:60940 on port 1883.
+1717005308: New client connected from 172.20.0.1:60940 as mqttx_63c4fe09 (p5, c1, k60).
+1717015162: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717015167: New connection from 172.20.0.1:60942 on port 1883.
+1717015167: New client connected from 172.20.0.1:60942 as mqttx_63c4fe09 (p5, c1, k60).
+1717047166: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717047171: New connection from 172.20.0.1:60944 on port 1883.
+1717047171: New client connected from 172.20.0.1:60944 as mqttx_63c4fe09 (p5, c1, k60).
+1717047520: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717047525: New connection from 172.20.0.1:60946 on port 1883.
+1717047525: New client connected from 172.20.0.1:60946 as mqttx_63c4fe09 (p5, c1, k60).
+1717047619: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717059324: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717059330: New connection from 172.20.0.1:60948 on port 1883.
+1717059330: New client connected from 172.20.0.1:60948 as mqttx_63c4fe09 (p5, c1, k60).
+1717083780: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717083785: New connection from 172.20.0.1:60950 on port 1883.
+1717083785: New client connected from 172.20.0.1:60950 as mqttx_63c4fe09 (p5, c1, k60).
+1717084128: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717087071: New connection from 172.20.0.1:60952 on port 1883.
+1717087071: New client connected from 172.20.0.1:60952 as mqttx_63c4fe09 (p5, c1, k60).
+1717125391: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717129238: New connection from 172.20.0.1:60954 on port 1883.
+1717129238: New client connected from 172.20.0.1:60954 as mqttx_63c4fe09 (p5, c1, k60).
+1717167017: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717167022: New connection from 172.20.0.1:60956 on port 1883.
+1717167022: New client connected from 172.20.0.1:60956 as mqttx_63c4fe09 (p5, c1, k60).
+1717176704: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717209369: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717209374: New connection from 172.20.0.1:60958 on port 1883.
+1717209374: New client connected from 172.20.0.1:60958 as mqttx_63c4fe09 (p5, c1, k60).
+1717237958: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717237963: New connection from 172.20.0.1:60960 on port 1883.
+1717237963: New client connected from 172.20.0.1:60960 as mqttx_63c4fe09 (p5, c1, k60).
+1717238306: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717238311: New connection from 172.20.0.1:60962 on port 1883.
+1717238311: New client connected from 172.20.0.1:60962 as mqttx_63c4fe09 (p5, c1, k60).
+1717238678: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717238683: New connection from 172.20.0.1:60964 on port 1883.
+1717238683: New client connected from 172.20.0.1:60964 as mqttx_63c4fe09 (p5, c1, k60).
+1717239026: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717239031: New connection from 172.20.0.1:60966 on port 1883.
+1717239031: New client connected from 172.20.0.1:60966 as mqttx_63c4fe09 (p5, c1, k60).
+1717239130: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717239644: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717239649: New connection from 172.20.0.1:60968 on port 1883.
+1717239649: New client connected from 172.20.0.1:60968 as mqttx_63c4fe09 (p5, c1, k60).
+1717240004: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717240009: New connection from 172.20.0.1:60970 on port 1883.
+1717240009: New client connected from 172.20.0.1:60970 as mqttx_63c4fe09 (p5, c1, k60).
+1717240364: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717240369: New connection from 172.20.0.1:60972 on port 1883.
+1717240369: New client connected from 172.20.0.1:60972 as mqttx_63c4fe09 (p5, c1, k60).
+1717240724: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717240729: New connection from 172.20.0.1:60974 on port 1883.
+1717240729: New client connected from 172.20.0.1:60974 as mqttx_63c4fe09 (p5, c1, k60).
+1717241004: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717241084: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717241089: New connection from 172.20.0.1:60976 on port 1883.
+1717241089: New client connected from 172.20.0.1:60976 as mqttx_63c4fe09 (p5, c1, k60).
+1717241444: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717241449: New connection from 172.20.0.1:60978 on port 1883.
+1717241449: New client connected from 172.20.0.1:60978 as mqttx_63c4fe09 (p5, c1, k60).
+1717241804: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717241809: New connection from 172.20.0.1:60980 on port 1883.
+1717241809: New client connected from 172.20.0.1:60980 as mqttx_63c4fe09 (p5, c1, k60).
+1717242164: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717242169: New connection from 172.20.0.1:60982 on port 1883.
+1717242169: New client connected from 172.20.0.1:60982 as mqttx_63c4fe09 (p5, c1, k60).
+1717242524: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717242529: New connection from 172.20.0.1:60984 on port 1883.
+1717242529: New client connected from 172.20.0.1:60984 as mqttx_63c4fe09 (p5, c1, k60).
+1717242805: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717243136: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717243141: New connection from 172.20.0.1:60986 on port 1883.
+1717243141: New client connected from 172.20.0.1:60986 as mqttx_63c4fe09 (p5, c1, k60).
+1717245212: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717245278: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717245284: New connection from 172.20.0.1:60988 on port 1883.
+1717245284: New client connected from 172.20.0.1:60988 as mqttx_63c4fe09 (p5, c1, k60).
+1717245830: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717245836: New connection from 172.20.0.1:60990 on port 1883.
+1717245836: New client connected from 172.20.0.1:60990 as mqttx_63c4fe09 (p5, c1, k60).
+1717246190: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717246196: New connection from 172.20.0.1:60992 on port 1883.
+1717246196: New client connected from 172.20.0.1:60992 as mqttx_63c4fe09 (p5, c1, k60).
+1717246550: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717246556: New connection from 172.20.0.1:60994 on port 1883.
+1717246556: New client connected from 172.20.0.1:60994 as mqttx_63c4fe09 (p5, c1, k60).
+1717246916: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717246922: New connection from 172.20.0.1:60996 on port 1883.
+1717246922: New client connected from 172.20.0.1:60996 as mqttx_63c4fe09 (p5, c1, k60).
+1717247013: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717247264: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717247270: New connection from 172.20.0.1:60998 on port 1883.
+1717247270: New client connected from 172.20.0.1:60998 as mqttx_63c4fe09 (p5, c1, k60).
+1717247636: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717247642: New connection from 172.20.0.1:61000 on port 1883.
+1717247642: New client connected from 172.20.0.1:61000 as mqttx_63c4fe09 (p5, c1, k60).
+1717247990: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717247996: New connection from 172.20.0.1:61002 on port 1883.
+1717247996: New client connected from 172.20.0.1:61002 as mqttx_63c4fe09 (p5, c1, k60).
+1717248350: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717248356: New connection from 172.20.0.1:61004 on port 1883.
+1717248356: New client connected from 172.20.0.1:61004 as mqttx_63c4fe09 (p5, c1, k60).
+1717248716: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717248722: New connection from 172.20.0.1:61006 on port 1883.
+1717248722: New client connected from 172.20.0.1:61006 as mqttx_63c4fe09 (p5, c1, k60).
+1717248814: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717249064: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717249070: New connection from 172.20.0.1:61008 on port 1883.
+1717249070: New client connected from 172.20.0.1:61008 as mqttx_63c4fe09 (p5, c1, k60).
+1717249436: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717249442: New connection from 172.20.0.1:61010 on port 1883.
+1717249442: New client connected from 172.20.0.1:61010 as mqttx_63c4fe09 (p5, c1, k60).
+1717249790: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717249796: New connection from 172.20.0.1:61012 on port 1883.
+1717249796: New client connected from 172.20.0.1:61012 as mqttx_63c4fe09 (p5, c1, k60).
+1717250150: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717250156: New connection from 172.20.0.1:61014 on port 1883.
+1717250156: New client connected from 172.20.0.1:61014 as mqttx_63c4fe09 (p5, c1, k60).
+1717250516: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717250522: New connection from 172.20.0.1:61016 on port 1883.
+1717250522: New client connected from 172.20.0.1:61016 as mqttx_63c4fe09 (p5, c1, k60).
+1717250615: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717250864: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717250870: New connection from 172.20.0.1:61018 on port 1883.
+1717250870: New client connected from 172.20.0.1:61018 as mqttx_63c4fe09 (p5, c1, k60).
+1717251236: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717251242: New connection from 172.20.0.1:61020 on port 1883.
+1717251242: New client connected from 172.20.0.1:61020 as mqttx_63c4fe09 (p5, c1, k60).
+1717251584: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717251590: New connection from 172.20.0.1:61022 on port 1883.
+1717251590: New client connected from 172.20.0.1:61022 as mqttx_63c4fe09 (p5, c1, k60).
+1717251956: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717251962: New connection from 172.20.0.1:61024 on port 1883.
+1717251962: New client connected from 172.20.0.1:61024 as mqttx_63c4fe09 (p5, c1, k60).
+1717252304: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717252310: New connection from 172.20.0.1:61026 on port 1883.
+1717252310: New client connected from 172.20.0.1:61026 as mqttx_63c4fe09 (p5, c1, k60).
+1717252416: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717252676: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717252682: New connection from 172.20.0.1:61028 on port 1883.
+1717252682: New client connected from 172.20.0.1:61028 as mqttx_63c4fe09 (p5, c1, k60).
+1717253024: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717253030: New connection from 172.20.0.1:61030 on port 1883.
+1717253030: New client connected from 172.20.0.1:61030 as mqttx_63c4fe09 (p5, c1, k60).
+1717253396: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717253402: New connection from 172.20.0.1:61032 on port 1883.
+1717253402: New client connected from 172.20.0.1:61032 as mqttx_63c4fe09 (p5, c1, k60).
+1717253744: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717253750: New connection from 172.20.0.1:61034 on port 1883.
+1717253750: New client connected from 172.20.0.1:61034 as mqttx_63c4fe09 (p5, c1, k60).
+1717254116: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717254122: New connection from 172.20.0.1:61036 on port 1883.
+1717254122: New client connected from 172.20.0.1:61036 as mqttx_63c4fe09 (p5, c1, k60).
+1717254217: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717254782: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717254788: New connection from 172.20.0.1:61038 on port 1883.
+1717254788: New client connected from 172.20.0.1:61038 as mqttx_63c4fe09 (p5, c1, k60).
+1717255988: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717255994: New connection from 172.20.0.1:61040 on port 1883.
+1717255994: New client connected from 172.20.0.1:61040 as mqttx_63c4fe09 (p5, c1, k60).
+1717256018: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717256354: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717256359: New connection from 172.20.0.1:61042 on port 1883.
+1717256359: New client connected from 172.20.0.1:61042 as mqttx_63c4fe09 (p5, c1, k60).
+1717256810: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717256816: New connection from 172.20.0.1:61044 on port 1883.
+1717256816: New client connected from 172.20.0.1:61044 as mqttx_63c4fe09 (p5, c1, k60).
+1717257176: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717257182: New connection from 172.20.0.1:61046 on port 1883.
+1717257182: New client connected from 172.20.0.1:61046 as mqttx_63c4fe09 (p5, c1, k60).
+1717257524: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717257530: New connection from 172.20.0.1:61048 on port 1883.
+1717257530: New client connected from 172.20.0.1:61048 as mqttx_63c4fe09 (p5, c1, k60).
+1717257858: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717257953: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717257958: New connection from 172.20.0.1:61050 on port 1883.
+1717257958: New client connected from 172.20.0.1:61050 as mqttx_63c4fe09 (p5, c1, k60).
+1717258349: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717258354: New connection from 172.20.0.1:61052 on port 1883.
+1717258354: New client connected from 172.20.0.1:61052 as mqttx_63c4fe09 (p5, c1, k60).
+1717258703: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717258708: New connection from 172.20.0.1:61054 on port 1883.
+1717258708: New client connected from 172.20.0.1:61054 as mqttx_63c4fe09 (p5, c1, k60).
+1717259075: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717259080: New connection from 172.20.0.1:61056 on port 1883.
+1717259080: New client connected from 172.20.0.1:61056 as mqttx_63c4fe09 (p5, c1, k60).
+1717259423: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717259428: New connection from 172.20.0.1:61058 on port 1883.
+1717259428: New client connected from 172.20.0.1:61058 as mqttx_63c4fe09 (p5, c1, k60).
+1717259659: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717259795: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717259800: New connection from 172.20.0.1:61060 on port 1883.
+1717259800: New client connected from 172.20.0.1:61060 as mqttx_63c4fe09 (p5, c1, k60).
+1717260173: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717260178: New connection from 172.20.0.1:61062 on port 1883.
+1717260178: New client connected from 172.20.0.1:61062 as mqttx_63c4fe09 (p5, c1, k60).
+1717260563: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717260568: New connection from 172.20.0.1:61064 on port 1883.
+1717260568: New client connected from 172.20.0.1:61064 as mqttx_63c4fe09 (p5, c1, k60).
+1717260947: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717260952: New connection from 172.20.0.1:61066 on port 1883.
+1717260952: New client connected from 172.20.0.1:61066 as mqttx_63c4fe09 (p5, c1, k60).
+1717261460: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717261469: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717261474: New connection from 172.20.0.1:61068 on port 1883.
+1717261474: New client connected from 172.20.0.1:61068 as mqttx_63c4fe09 (p5, c1, k60).
+1717261829: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717261834: New connection from 172.20.0.1:61070 on port 1883.
+1717261834: New client connected from 172.20.0.1:61070 as mqttx_63c4fe09 (p5, c1, k60).
+1717262189: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717262194: New connection from 172.20.0.1:61072 on port 1883.
+1717262194: New client connected from 172.20.0.1:61072 as mqttx_63c4fe09 (p5, c1, k60).
+1717263029: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717263034: New connection from 172.20.0.1:61074 on port 1883.
+1717263034: New client connected from 172.20.0.1:61074 as mqttx_63c4fe09 (p5, c1, k60).
+1717263261: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717263395: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717263400: New connection from 172.20.0.1:61076 on port 1883.
+1717263400: New client connected from 172.20.0.1:61076 as mqttx_63c4fe09 (p5, c1, k60).
+1717263743: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717263748: New connection from 172.20.0.1:61078 on port 1883.
+1717263748: New client connected from 172.20.0.1:61078 as mqttx_63c4fe09 (p5, c1, k60).
+1717265065: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717265070: New connection from 172.20.0.1:61080 on port 1883.
+1717265070: New client connected from 172.20.0.1:61080 as mqttx_63c4fe09 (p5, c1, k60).
+1717265413: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717265418: New connection from 172.20.0.1:61082 on port 1883.
+1717265418: New client connected from 172.20.0.1:61082 as mqttx_63c4fe09 (p5, c1, k60).
+1717265785: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717265790: New connection from 172.20.0.1:61084 on port 1883.
+1717265790: New client connected from 172.20.0.1:61084 as mqttx_63c4fe09 (p5, c1, k60).
+1717266012: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717266133: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717266138: New connection from 172.20.0.1:61086 on port 1883.
+1717266138: New client connected from 172.20.0.1:61086 as mqttx_63c4fe09 (p5, c1, k60).
+1717266505: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717266510: New connection from 172.20.0.1:61088 on port 1883.
+1717266510: New client connected from 172.20.0.1:61088 as mqttx_63c4fe09 (p5, c1, k60).
+1717266853: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717266858: New connection from 172.20.0.1:61090 on port 1883.
+1717266858: New client connected from 172.20.0.1:61090 as mqttx_63c4fe09 (p5, c1, k60).
+1717271837: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717271842: New connection from 172.20.0.1:61092 on port 1883.
+1717271842: New client connected from 172.20.0.1:61092 as mqttx_63c4fe09 (p5, c1, k60).
+1717279025: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717279030: New connection from 172.20.0.1:61094 on port 1883.
+1717279030: New client connected from 172.20.0.1:61094 as mqttx_63c4fe09 (p5, c1, k60).
+1717283160: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717286141: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717287122: New connection from 172.20.0.1:61096 on port 1883.
+1717287122: New client connected from 172.20.0.1:61096 as mqttx_63c4fe09 (p5, c1, k60).
+1717292401: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717292407: New connection from 172.20.0.1:61098 on port 1883.
+1717292407: New client connected from 172.20.0.1:61098 as mqttx_63c4fe09 (p5, c1, k60).
+1717299776: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717299781: New connection from 172.20.0.1:61100 on port 1883.
+1717299781: New client connected from 172.20.0.1:61100 as mqttx_63c4fe09 (p5, c1, k60).
+1717303893: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717303898: New connection from 172.20.0.1:61102 on port 1883.
+1717303898: New client connected from 172.20.0.1:61102 as mqttx_63c4fe09 (p5, c1, k60).
+1717311033: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717311949: New connection from 172.20.0.1:61104 on port 1883.
+1717311949: New client connected from 172.20.0.1:61104 as mqttx_63c4fe09 (p5, c1, k60).
+1717316052: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717318166: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717318172: New connection from 172.20.0.1:61106 on port 1883.
+1717318172: New client connected from 172.20.0.1:61106 as mqttx_63c4fe09 (p5, c1, k60).
+1717325157: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717325162: New connection from 172.20.0.1:61108 on port 1883.
+1717325162: New client connected from 172.20.0.1:61108 as mqttx_63c4fe09 (p5, c1, k60).
+1717332447: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717333378: New connection from 172.20.0.1:61110 on port 1883.
+1717333378: New client connected from 172.20.0.1:61110 as mqttx_63c4fe09 (p5, c1, k60).
+1717339530: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717339535: New connection from 172.20.0.1:61112 on port 1883.
+1717339535: New client connected from 172.20.0.1:61112 as mqttx_63c4fe09 (p5, c1, k60).
+1717345778: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717345784: New connection from 172.20.0.1:61114 on port 1883.
+1717345784: New client connected from 172.20.0.1:61114 as mqttx_63c4fe09 (p5, c1, k60).
+1717347911: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717350016: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717350022: New connection from 172.20.0.1:61116 on port 1883.
+1717350022: New client connected from 172.20.0.1:61116 as mqttx_63c4fe09 (p5, c1, k60).
+1717356333: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717356338: New connection from 172.20.0.1:61118 on port 1883.
+1717356338: New client connected from 172.20.0.1:61118 as mqttx_63c4fe09 (p5, c1, k60).
+1717362682: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717362687: New connection from 172.20.0.1:61120 on port 1883.
+1717362687: New client connected from 172.20.0.1:61120 as mqttx_63c4fe09 (p5, c1, k60).
+1717369710: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717369715: New connection from 172.20.0.1:61122 on port 1883.
+1717369715: New client connected from 172.20.0.1:61122 as mqttx_63c4fe09 (p5, c1, k60).
+1717376965: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717376970: New connection from 172.20.0.1:61124 on port 1883.
+1717376970: New client connected from 172.20.0.1:61124 as mqttx_63c4fe09 (p5, c1, k60).
+1717381198: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717384180: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717384185: New connection from 172.20.0.1:61126 on port 1883.
+1717384185: New client connected from 172.20.0.1:61126 as mqttx_63c4fe09 (p5, c1, k60).
+1717390634: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717390639: New connection from 172.20.0.1:61128 on port 1883.
+1717390639: New client connected from 172.20.0.1:61128 as mqttx_63c4fe09 (p5, c1, k60).
+1717395784: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717395789: New connection from 172.20.0.1:61130 on port 1883.
+1717395789: New client connected from 172.20.0.1:61130 as mqttx_63c4fe09 (p5, c1, k60).
+1717402810: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717402815: New connection from 172.20.0.1:61132 on port 1883.
+1717402815: New client connected from 172.20.0.1:61132 as mqttx_63c4fe09 (p5, c1, k60).
+1717410110: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717410115: New connection from 172.20.0.1:61134 on port 1883.
+1717410115: New client connected from 172.20.0.1:61134 as mqttx_63c4fe09 (p5, c1, k60).
+1717414788: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717417784: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717417789: New connection from 172.20.0.1:61136 on port 1883.
+1717417789: New client connected from 172.20.0.1:61136 as mqttx_63c4fe09 (p5, c1, k60).
+1717424849: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717424854: New connection from 172.20.0.1:61138 on port 1883.
+1717424854: New client connected from 172.20.0.1:61138 as mqttx_63c4fe09 (p5, c1, k60).
+1717432057: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717432062: New connection from 172.20.0.1:61140 on port 1883.
+1717432062: New client connected from 172.20.0.1:61140 as mqttx_63c4fe09 (p5, c1, k60).
+1717437438: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717437443: New connection from 172.20.0.1:61142 on port 1883.
+1717437443: New client connected from 172.20.0.1:61142 as mqttx_63c4fe09 (p5, c1, k60).
+1717442110: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717442115: New connection from 172.20.0.1:61144 on port 1883.
+1717442115: New client connected from 172.20.0.1:61144 as mqttx_63c4fe09 (p5, c1, k60).
+1717442343: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717442458: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717442463: New connection from 172.20.0.1:61146 on port 1883.
+1717442463: New client connected from 172.20.0.1:61146 as mqttx_63c4fe09 (p5, c1, k60).
+1717442830: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717442835: New connection from 172.20.0.1:61148 on port 1883.
+1717442835: New client connected from 172.20.0.1:61148 as mqttx_63c4fe09 (p5, c1, k60).
+1717443178: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717443183: New connection from 172.20.0.1:61150 on port 1883.
+1717443183: New client connected from 172.20.0.1:61150 as mqttx_63c4fe09 (p5, c1, k60).
+1717443592: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717443597: New connection from 172.20.0.1:61152 on port 1883.
+1717443597: New client connected from 172.20.0.1:61152 as mqttx_63c4fe09 (p5, c1, k60).
+1717443958: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717443963: New connection from 172.20.0.1:61154 on port 1883.
+1717443963: New client connected from 172.20.0.1:61154 as mqttx_63c4fe09 (p5, c1, k60).
+1717444144: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717444324: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717444329: New connection from 172.20.0.1:61156 on port 1883.
+1717444329: New client connected from 172.20.0.1:61156 as mqttx_63c4fe09 (p5, c1, k60).
+1717444684: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717444689: New connection from 172.20.0.1:61158 on port 1883.
+1717444689: New client connected from 172.20.0.1:61158 as mqttx_63c4fe09 (p5, c1, k60).
+1717445044: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717445049: New connection from 172.20.0.1:61160 on port 1883.
+1717445049: New client connected from 172.20.0.1:61160 as mqttx_63c4fe09 (p5, c1, k60).
+1717445404: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717445409: New connection from 172.20.0.1:61162 on port 1883.
+1717445409: New client connected from 172.20.0.1:61162 as mqttx_63c4fe09 (p5, c1, k60).
+1717445764: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717445769: New connection from 172.20.0.1:61164 on port 1883.
+1717445769: New client connected from 172.20.0.1:61164 as mqttx_63c4fe09 (p5, c1, k60).
+1717445945: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717446124: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717446129: New connection from 172.20.0.1:61166 on port 1883.
+1717446129: New client connected from 172.20.0.1:61166 as mqttx_63c4fe09 (p5, c1, k60).
+1717446484: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717446489: New connection from 172.20.0.1:61168 on port 1883.
+1717446489: New client connected from 172.20.0.1:61168 as mqttx_63c4fe09 (p5, c1, k60).
+1717446844: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717446849: New connection from 172.20.0.1:61170 on port 1883.
+1717446849: New client connected from 172.20.0.1:61170 as mqttx_63c4fe09 (p5, c1, k60).
+1717447204: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717447209: New connection from 172.20.0.1:61172 on port 1883.
+1717447209: New client connected from 172.20.0.1:61172 as mqttx_63c4fe09 (p5, c1, k60).
+1717447564: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717447569: New connection from 172.20.0.1:61174 on port 1883.
+1717447569: New client connected from 172.20.0.1:61174 as mqttx_63c4fe09 (p5, c1, k60).
+1717447746: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717447924: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717447929: New connection from 172.20.0.1:61176 on port 1883.
+1717447929: New client connected from 172.20.0.1:61176 as mqttx_63c4fe09 (p5, c1, k60).
+1717448284: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717448289: New connection from 172.20.0.1:61178 on port 1883.
+1717448289: New client connected from 172.20.0.1:61178 as mqttx_63c4fe09 (p5, c1, k60).
+1717448644: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717448649: New connection from 172.20.0.1:61180 on port 1883.
+1717448649: New client connected from 172.20.0.1:61180 as mqttx_63c4fe09 (p5, c1, k60).
+1717449004: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717449009: New connection from 172.20.0.1:61182 on port 1883.
+1717449009: New client connected from 172.20.0.1:61182 as mqttx_63c4fe09 (p5, c1, k60).
+1717452332: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717452338: New connection from 172.20.0.1:61184 on port 1883.
+1717452338: New client connected from 172.20.0.1:61184 as mqttx_63c4fe09 (p5, c1, k60).
+1717455398: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717459243: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717459248: New connection from 172.20.0.1:61186 on port 1883.
+1717459248: New client connected from 172.20.0.1:61186 as mqttx_63c4fe09 (p5, c1, k60).
+1717465561: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717465566: New connection from 172.20.0.1:61188 on port 1883.
+1717465566: New client connected from 172.20.0.1:61188 as mqttx_63c4fe09 (p5, c1, k60).
+1717472084: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717472089: New connection from 172.20.0.1:61190 on port 1883.
+1717472089: New client connected from 172.20.0.1:61190 as mqttx_63c4fe09 (p5, c1, k60).
+1717479149: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717479154: New connection from 172.20.0.1:61192 on port 1883.
+1717479154: New client connected from 172.20.0.1:61192 as mqttx_63c4fe09 (p5, c1, k60).
+1717486246: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717486251: New connection from 172.20.0.1:61194 on port 1883.
+1717486252: New client connected from 172.20.0.1:61194 as mqttx_63c4fe09 (p5, c1, k60).
+1717490309: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717494404: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717494409: New connection from 172.20.0.1:61196 on port 1883.
+1717494409: New client connected from 172.20.0.1:61196 as mqttx_63c4fe09 (p5, c1, k60).
+1717500512: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717500517: New connection from 172.20.0.1:61198 on port 1883.
+1717500517: New client connected from 172.20.0.1:61198 as mqttx_63c4fe09 (p5, c1, k60).
+1717507665: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717507670: New connection from 172.20.0.1:61200 on port 1883.
+1717507671: New client connected from 172.20.0.1:61200 as mqttx_63c4fe09 (p5, c1, k60).
+1717514964: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717514969: New connection from 172.20.0.1:61202 on port 1883.
+1717514969: New client connected from 172.20.0.1:61202 as mqttx_63c4fe09 (p5, c1, k60).
+1717518825: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717518830: New connection from 172.20.0.1:61204 on port 1883.
+1717518830: New client connected from 172.20.0.1:61204 as mqttx_63c4fe09 (p5, c1, k60).
+1717519004: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717519173: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717519178: New connection from 172.20.0.1:61206 on port 1883.
+1717519178: New client connected from 172.20.0.1:61206 as mqttx_63c4fe09 (p5, c1, k60).
+1717522480: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717522485: New connection from 172.20.0.1:61208 on port 1883.
+1717522485: New client connected from 172.20.0.1:61208 as mqttx_63c4fe09 (p5, c1, k60).
+1717528099: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717528105: New connection from 172.20.0.1:61210 on port 1883.
+1717528105: New client connected from 172.20.0.1:61210 as mqttx_63c4fe09 (p5, c1, k60).
+1717528459: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717528465: New connection from 172.20.0.1:61212 on port 1883.
+1717528465: New client connected from 172.20.0.1:61212 as mqttx_63c4fe09 (p5, c1, k60).
+1717528819: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717528825: New connection from 172.20.0.1:61214 on port 1883.
+1717528825: New client connected from 172.20.0.1:61214 as mqttx_63c4fe09 (p5, c1, k60).
+1717528825: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717529179: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717529185: New connection from 172.20.0.1:61216 on port 1883.
+1717529185: New client connected from 172.20.0.1:61216 as mqttx_63c4fe09 (p5, c1, k60).
+1717529539: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717529545: New connection from 172.20.0.1:61218 on port 1883.
+1717529545: New client connected from 172.20.0.1:61218 as mqttx_63c4fe09 (p5, c1, k60).
+1717529899: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717529905: New connection from 172.20.0.1:61220 on port 1883.
+1717529905: New client connected from 172.20.0.1:61220 as mqttx_63c4fe09 (p5, c1, k60).
+1717530259: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717530265: New connection from 172.20.0.1:61222 on port 1883.
+1717530265: New client connected from 172.20.0.1:61222 as mqttx_63c4fe09 (p5, c1, k60).
+1717530619: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717530625: New connection from 172.20.0.1:61224 on port 1883.
+1717530625: New client connected from 172.20.0.1:61224 as mqttx_63c4fe09 (p5, c1, k60).
+1717530626: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717541694: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717541699: New connection from 172.20.0.1:61226 on port 1883.
+1717541699: New client connected from 172.20.0.1:61226 as mqttx_63c4fe09 (p5, c1, k60).
+1717574089: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717574094: New connection from 172.20.0.1:61228 on port 1883.
+1717574094: New client connected from 172.20.0.1:61228 as mqttx_63c4fe09 (p5, c1, k60).
+1717575541: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717575546: New connection from 172.20.0.1:61230 on port 1883.
+1717575546: New client connected from 172.20.0.1:61230 as mqttx_63c4fe09 (p5, c1, k60).
+1717575901: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717575906: New connection from 172.20.0.1:61232 on port 1883.
+1717575906: New client connected from 172.20.0.1:61232 as mqttx_63c4fe09 (p5, c1, k60).
+1717576261: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717576266: New connection from 172.20.0.1:61234 on port 1883.
+1717576266: New client connected from 172.20.0.1:61234 as mqttx_63c4fe09 (p5, c1, k60).
+1717576270: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717576621: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717576626: New connection from 172.20.0.1:61236 on port 1883.
+1717576626: New client connected from 172.20.0.1:61236 as mqttx_63c4fe09 (p5, c1, k60).
+1717576981: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717576986: New connection from 172.20.0.1:61238 on port 1883.
+1717576986: New client connected from 172.20.0.1:61238 as mqttx_63c4fe09 (p5, c1, k60).
+1717577341: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717577346: New connection from 172.20.0.1:61240 on port 1883.
+1717577346: New client connected from 172.20.0.1:61240 as mqttx_63c4fe09 (p5, c1, k60).
+1717577701: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717577706: New connection from 172.20.0.1:61242 on port 1883.
+1717577706: New client connected from 172.20.0.1:61242 as mqttx_63c4fe09 (p5, c1, k60).
+1717578061: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717578066: New connection from 172.20.0.1:61244 on port 1883.
+1717578066: New client connected from 172.20.0.1:61244 as mqttx_63c4fe09 (p5, c1, k60).
+1717578071: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717578421: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717578426: New connection from 172.20.0.1:61246 on port 1883.
+1717578426: New client connected from 172.20.0.1:61246 as mqttx_63c4fe09 (p5, c1, k60).
+1717578781: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717578786: New connection from 172.20.0.1:61248 on port 1883.
+1717578786: New client connected from 172.20.0.1:61248 as mqttx_63c4fe09 (p5, c1, k60).
+1717579141: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717579146: New connection from 172.20.0.1:61250 on port 1883.
+1717579146: New client connected from 172.20.0.1:61250 as mqttx_63c4fe09 (p5, c1, k60).
+1717579501: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717579506: New connection from 172.20.0.1:61252 on port 1883.
+1717579506: New client connected from 172.20.0.1:61252 as mqttx_63c4fe09 (p5, c1, k60).
+1717579861: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717579866: New connection from 172.20.0.1:61254 on port 1883.
+1717579866: New client connected from 172.20.0.1:61254 as mqttx_63c4fe09 (p5, c1, k60).
+1717579872: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717580221: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717580226: New connection from 172.20.0.1:61256 on port 1883.
+1717580226: New client connected from 172.20.0.1:61256 as mqttx_63c4fe09 (p5, c1, k60).
+1717580581: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717580586: New connection from 172.20.0.1:61258 on port 1883.
+1717580586: New client connected from 172.20.0.1:61258 as mqttx_63c4fe09 (p5, c1, k60).
+1717580962: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717580968: New connection from 172.20.0.1:61260 on port 1883.
+1717580968: New client connected from 172.20.0.1:61260 as mqttx_63c4fe09 (p5, c1, k60).
+1717581310: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717581316: New connection from 172.20.0.1:61262 on port 1883.
+1717581316: New client connected from 172.20.0.1:61262 as mqttx_63c4fe09 (p5, c1, k60).
+1717581682: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717581688: New connection from 172.20.0.1:61264 on port 1883.
+1717581688: New client connected from 172.20.0.1:61264 as mqttx_63c4fe09 (p5, c1, k60).
+1717581688: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717582030: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717582036: New connection from 172.20.0.1:61266 on port 1883.
+1717582036: New client connected from 172.20.0.1:61266 as mqttx_63c4fe09 (p5, c1, k60).
+1717582402: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717582408: New connection from 172.20.0.1:61268 on port 1883.
+1717582408: New client connected from 172.20.0.1:61268 as mqttx_63c4fe09 (p5, c1, k60).
+1717582750: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717582756: New connection from 172.20.0.1:61270 on port 1883.
+1717582756: New client connected from 172.20.0.1:61270 as mqttx_63c4fe09 (p5, c1, k60).
+1717583122: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717583128: New connection from 172.20.0.1:61272 on port 1883.
+1717583128: New client connected from 172.20.0.1:61272 as mqttx_63c4fe09 (p5, c1, k60).
+1717586226: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717586231: New connection from 172.20.0.1:61274 on port 1883.
+1717586231: New client connected from 172.20.0.1:61274 as mqttx_63c4fe09 (p5, c1, k60).
+1717586239: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717590432: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717590438: New connection from 172.20.0.1:61276 on port 1883.
+1717590438: New client connected from 172.20.0.1:61276 as mqttx_63c4fe09 (p5, c1, k60).
+1717590793: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717590798: New connection from 172.20.0.1:61278 on port 1883.
+1717590798: New client connected from 172.20.0.1:61278 as mqttx_63c4fe09 (p5, c1, k60).
+1717591153: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717591158: New connection from 172.20.0.1:61280 on port 1883.
+1717591158: New client connected from 172.20.0.1:61280 as mqttx_63c4fe09 (p5, c1, k60).
+1717591322: New connection from 172.20.0.1:61282 on port 1883.
+1717591322: New client connected from 172.20.0.1:61282 as service (p2, c1, k30).
+1717591322: Client service closed its connection.
+1717591328: New connection from 172.20.0.1:61284 on port 1883.
+1717591328: New client connected from 172.20.0.1:61284 as service (p2, c1, k30).
+1717591328: Client service closed its connection.
+1717591487: New connection from 172.20.0.1:61286 on port 1883.
+1717591487: New client connected from 172.20.0.1:61286 as service (p2, c1, k30).
+1717591513: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717591518: New connection from 172.20.0.1:61288 on port 1883.
+1717591518: New client connected from 172.20.0.1:61288 as mqttx_63c4fe09 (p5, c1, k60).
+1717591635: Client service closed its connection.
+1717591636: New connection from 172.20.0.1:61290 on port 1883.
+1717591636: New client connected from 172.20.0.1:61290 as service (p2, c1, k30).
+1717591684: New connection from 172.20.0.1:61292 on port 1883.
+1717591684: New client connected from 172.20.0.1:61292 as mqttx_ef4aa895 (p5, c1, k60).
+1717591706: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717591746: Client service closed its connection.
+1717591747: New connection from 172.20.0.1:61294 on port 1883.
+1717591747: New client connected from 172.20.0.1:61294 as service (p2, c1, k30).
+1717592172: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717592178: New connection from 172.20.0.1:61330 on port 1883.
+1717592178: New client connected from 172.20.0.1:61330 as mqttx_63c4fe09 (p5, c1, k60).
+1717592346: Client mqttx_ef4aa895 has exceeded timeout, disconnecting.
+1717592352: New connection from 172.20.0.1:61332 on port 1883.
+1717592352: New client connected from 172.20.0.1:61332 as mqttx_ef4aa895 (p5, c1, k60).
+1717592550: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717592556: New connection from 172.20.0.1:61334 on port 1883.
+1717592556: New client connected from 172.20.0.1:61334 as mqttx_63c4fe09 (p5, c1, k60).
+1717592712: Client mqttx_ef4aa895 has exceeded timeout, disconnecting.
+1717592718: New connection from 172.20.0.1:61336 on port 1883.
+1717592718: New client connected from 172.20.0.1:61336 as mqttx_ef4aa895 (p5, c1, k60).
+1717593012: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717593018: New connection from 172.20.0.1:61338 on port 1883.
+1717593018: New client connected from 172.20.0.1:61338 as mqttx_63c4fe09 (p5, c1, k60).
+1717593078: Client mqttx_ef4aa895 has exceeded timeout, disconnecting.
+1717593084: New connection from 172.20.0.1:61340 on port 1883.
+1717593084: New client connected from 172.20.0.1:61340 as mqttx_ef4aa895 (p5, c1, k60).
+1717593366: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717593372: New connection from 172.20.0.1:61342 on port 1883.
+1717593372: New client connected from 172.20.0.1:61342 as mqttx_63c4fe09 (p5, c1, k60).
+1717593426: Client mqttx_ef4aa895 has exceeded timeout, disconnecting.
+1717593432: New connection from 172.20.0.1:61344 on port 1883.
+1717593432: New client connected from 172.20.0.1:61344 as mqttx_ef4aa895 (p5, c1, k60).
+1717593507: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717593732: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717593738: New connection from 172.20.0.1:61346 on port 1883.
+1717593738: New client connected from 172.20.0.1:61346 as mqttx_63c4fe09 (p5, c1, k60).
+1717593747: Client service closed its connection.
+1717593768: New connection from 172.20.0.1:61352 on port 1883.
+1717593768: New client connected from 172.20.0.1:61352 as service (p2, c1, k30).
+1717593967: Client mqttx_ef4aa895 has exceeded timeout, disconnecting.
+1717593972: New connection from 172.20.0.1:61354 on port 1883.
+1717593972: New client connected from 172.20.0.1:61354 as mqttx_ef4aa895 (p5, c1, k60).
+1717594099: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717594104: New connection from 172.20.0.1:61356 on port 1883.
+1717594104: New client connected from 172.20.0.1:61356 as mqttx_63c4fe09 (p5, c1, k60).
+1717594326: Client mqttx_ef4aa895 has exceeded timeout, disconnecting.
+1717594332: New connection from 172.20.0.1:61358 on port 1883.
+1717594332: New client connected from 172.20.0.1:61358 as mqttx_ef4aa895 (p5, c1, k60).
+1717594453: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717594458: New connection from 172.20.0.1:61360 on port 1883.
+1717594458: New client connected from 172.20.0.1:61360 as mqttx_63c4fe09 (p5, c1, k60).
+1717594698: Client mqttx_ef4aa895 has exceeded timeout, disconnecting.
+1717594704: New connection from 172.20.0.1:61362 on port 1883.
+1717594704: New client connected from 172.20.0.1:61362 as mqttx_ef4aa895 (p5, c1, k60).
+1717594933: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717594938: New connection from 172.20.0.1:61364 on port 1883.
+1717594938: New client connected from 172.20.0.1:61364 as mqttx_63c4fe09 (p5, c1, k60).
+1717595059: Client mqttx_ef4aa895 has exceeded timeout, disconnecting.
+1717595064: New connection from 172.20.0.1:61366 on port 1883.
+1717595064: New client connected from 172.20.0.1:61366 as mqttx_ef4aa895 (p5, c1, k60).
+1717595287: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717595292: New connection from 172.20.0.1:61368 on port 1883.
+1717595292: New client connected from 172.20.0.1:61368 as mqttx_63c4fe09 (p5, c1, k60).
+1717595309: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717595413: Client mqttx_ef4aa895 has exceeded timeout, disconnecting.
+1717595418: New connection from 172.20.0.1:61370 on port 1883.
+1717595418: New client connected from 172.20.0.1:61370 as mqttx_ef4aa895 (p5, c1, k60).
+1717595652: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717595658: New connection from 172.20.0.1:61372 on port 1883.
+1717595658: New client connected from 172.20.0.1:61372 as mqttx_63c4fe09 (p5, c1, k60).
+1717595779: Client mqttx_ef4aa895 has exceeded timeout, disconnecting.
+1717595784: New connection from 172.20.0.1:61374 on port 1883.
+1717595784: New client connected from 172.20.0.1:61374 as mqttx_ef4aa895 (p5, c1, k60).
+1717596007: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717596012: New connection from 172.20.0.1:61376 on port 1883.
+1717596012: New client connected from 172.20.0.1:61376 as mqttx_63c4fe09 (p5, c1, k60).
+1717596133: Client mqttx_ef4aa895 has exceeded timeout, disconnecting.
+1717596138: New connection from 172.20.0.1:61378 on port 1883.
+1717596138: New client connected from 172.20.0.1:61378 as mqttx_ef4aa895 (p5, c1, k60).
+1717596373: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717596378: New connection from 172.20.0.1:61380 on port 1883.
+1717596378: New client connected from 172.20.0.1:61380 as mqttx_63c4fe09 (p5, c1, k60).
+1717596499: Client mqttx_ef4aa895 has exceeded timeout, disconnecting.
+1717596504: New connection from 172.20.0.1:61382 on port 1883.
+1717596504: New client connected from 172.20.0.1:61382 as mqttx_ef4aa895 (p5, c1, k60).
+1717596595: Client mqttx_ef4aa895 has exceeded timeout, disconnecting.
+1717596733: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717596738: New connection from 172.20.0.1:61384 on port 1883.
+1717596738: New client connected from 172.20.0.1:61384 as mqttx_63c4fe09 (p5, c1, k60).
+1717597093: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717597098: New connection from 172.20.0.1:61386 on port 1883.
+1717597098: New client connected from 172.20.0.1:61386 as mqttx_63c4fe09 (p5, c1, k60).
+1717597110: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717597453: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717597458: New connection from 172.20.0.1:61388 on port 1883.
+1717597458: New client connected from 172.20.0.1:61388 as mqttx_63c4fe09 (p5, c1, k60).
+1717597813: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717597818: New connection from 172.20.0.1:61390 on port 1883.
+1717597818: New client connected from 172.20.0.1:61390 as mqttx_63c4fe09 (p5, c1, k60).
+1717598173: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717598178: New connection from 172.20.0.1:61392 on port 1883.
+1717598178: New client connected from 172.20.0.1:61392 as mqttx_63c4fe09 (p5, c1, k60).
+1717598533: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717598538: New connection from 172.20.0.1:61394 on port 1883.
+1717598538: New client connected from 172.20.0.1:61394 as mqttx_63c4fe09 (p5, c1, k60).
+1717598893: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717598898: New connection from 172.20.0.1:61396 on port 1883.
+1717598898: New client connected from 172.20.0.1:61396 as mqttx_63c4fe09 (p5, c1, k60).
+1717598911: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717599253: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717599258: New connection from 172.20.0.1:61398 on port 1883.
+1717599258: New client connected from 172.20.0.1:61398 as mqttx_63c4fe09 (p5, c1, k60).
+1717600745: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717600750: New connection from 172.20.0.1:61400 on port 1883.
+1717600750: New client connected from 172.20.0.1:61400 as mqttx_63c4fe09 (p5, c1, k60).
+1717601047: Client service closed its connection.
+1717601219: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717601224: New connection from 172.20.0.1:61402 on port 1883.
+1717601224: New client connected from 172.20.0.1:61402 as mqttx_63c4fe09 (p5, c1, k60).
+1717601591: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717601596: New connection from 172.20.0.1:61404 on port 1883.
+1717601596: New client connected from 172.20.0.1:61404 as mqttx_63c4fe09 (p5, c1, k60).
+1717601844: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717601939: New connection from 172.20.0.1:61408 on port 1883.
+1717601939: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717601939: New client connected from 172.20.0.1:61408 as service (p2, c1, k30).
+1717601939: Client service closed its connection.
+1717601944: New connection from 172.20.0.1:61410 on port 1883.
+1717601944: New client connected from 172.20.0.1:61410 as mqttx_63c4fe09 (p5, c1, k60).
+1717602024: New connection from 172.20.0.1:61414 on port 1883.
+1717602024: New client connected from 172.20.0.1:61414 as service (p2, c1, k30).
+1717602024: Client service closed its connection.
+1717602045: New connection from 172.20.0.1:61418 on port 1883.
+1717602045: New client connected from 172.20.0.1:61418 as service (p2, c1, k30).
+1717602045: Client service closed its connection.
+1717602065: New connection from 172.20.0.1:61422 on port 1883.
+1717602065: New client connected from 172.20.0.1:61422 as service (p2, c1, k30).
+1717602065: Client service closed its connection.
+1717602311: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717602316: New connection from 172.20.0.1:61424 on port 1883.
+1717602316: New client connected from 172.20.0.1:61424 as mqttx_63c4fe09 (p5, c1, k60).
+1717602360: mosquitto version 2.0.18 terminating
+1717602360: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717602381: mosquitto version 2.0.18 starting
+1717602381: Config loaded from /mosquitto/config/mosquitto.conf.
+1717602381: Opening ipv4 listen socket on port 1883.
+1717602381: Opening ipv6 listen socket on port 1883.
+1717602381: mosquitto version 2.0.18 running
+1717602384: New connection from 172.23.0.1:61472 on port 1883.
+1717602384: New client connected from 172.23.0.1:61472 as mqttx_63c4fe09 (p5, c1, k60).
+1717602393: New connection from 172.23.0.1:61476 on port 1883.
+1717602393: New client connected from 172.23.0.1:61476 as service (p2, c1, k30).
+1717602393: Client service closed its connection.
+1717602399: New connection from 172.23.0.1:61480 on port 1883.
+1717602399: New client connected from 172.23.0.1:61480 as service (p2, c1, k30).
+1717602399: Client service closed its connection.
+1717602464: mosquitto version 2.0.18 terminating
+1717602464: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717602469: mosquitto version 2.0.18 starting
+1717602469: Config loaded from /mosquitto/config/mosquitto.conf.
+1717602469: Opening ipv4 listen socket on port 1883.
+1717602469: Opening ipv6 listen socket on port 1883.
+1717602469: mosquitto version 2.0.18 running
+1717602469: New connection from 172.23.0.1:61482 on port 1883.
+1717602469: New client connected from 172.23.0.1:61482 as mqttx_63c4fe09 (p5, c1, k60).
+1717602589: mosquitto version 2.0.18 terminating
+1717602589: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717602633: mosquitto version 2.0.18 starting
+1717602633: Config loaded from /mosquitto/config/mosquitto.conf.
+1717602633: Opening ipv4 listen socket on port 1883.
+1717602633: Opening ipv6 listen socket on port 1883.
+1717602633: mosquitto version 2.0.18 running
+1717602635: New connection from 172.24.0.1:61484 on port 1883.
+1717602635: New client connected from 172.24.0.1:61484 as mqttx_63c4fe09 (p5, c1, k60).
+1717639354: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717639360: New connection from 172.24.0.1:61486 on port 1883.
+1717639360: New client connected from 172.24.0.1:61486 as mqttx_63c4fe09 (p5, c1, k60).
+1717681650: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717681658: New connection from 172.24.0.1:61488 on port 1883.
+1717681658: New client connected from 172.24.0.1:61488 as mqttx_63c4fe09 (p5, c1, k60).
+1717721975: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717721980: New connection from 172.24.0.1:61490 on port 1883.
+1717721980: New client connected from 172.24.0.1:61490 as mqttx_63c4fe09 (p5, c1, k60).
+1717763950: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717763956: New connection from 172.24.0.1:61492 on port 1883.
+1717763956: New client connected from 172.24.0.1:61492 as mqttx_63c4fe09 (p5, c1, k60).
+1717763991: New connection from 172.24.0.1:61496 on port 1883.
+1717763991: New client connected from 172.24.0.1:61496 as service (p2, c1, k30).
+1717763991: Client service closed its connection.
+1717764051: New connection from 172.24.0.1:61500 on port 1883.
+1717764051: New client connected from 172.24.0.1:61500 as service (p2, c1, k30).
+1717764051: Client service closed its connection.
+1717764096: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1717764195: New connection from 172.24.0.1:61504 on port 1883.
+1717764195: New client connected from 172.24.0.1:61504 as service (p2, c1, k30).
+1717764195: Client service closed its connection.
+1717764205: New connection from 172.24.0.1:61508 on port 1883.
+1717764205: New client connected from 172.24.0.1:61508 as service (p2, c1, k30).
+1717764205: Client service closed its connection.
+1717764211: New connection from 172.24.0.1:61512 on port 1883.
+1717764211: New client connected from 172.24.0.1:61512 as service (p2, c1, k30).
+1717764211: Client service closed its connection.
+1717764219: New connection from 172.24.0.1:61516 on port 1883.
+1717764219: New client connected from 172.24.0.1:61516 as service (p2, c1, k30).
+1717764219: Client service closed its connection.
+1717764304: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717764305: New connection from 172.24.0.1:61520 on port 1883.
+1717764305: New client connected from 172.24.0.1:61520 as service (p2, c1, k30).
+1717764305: Client service closed its connection.
+1717764310: New connection from 172.24.0.1:61522 on port 1883.
+1717764310: New client connected from 172.24.0.1:61522 as mqttx_63c4fe09 (p5, c1, k60).
+1717764365: New connection from 172.24.0.1:61526 on port 1883.
+1717764365: New client connected from 172.24.0.1:61526 as service (p2, c1, k30).
+1717764365: Client service closed its connection.
+1717764376: New connection from 172.24.0.1:61530 on port 1883.
+1717764376: New client connected from 172.24.0.1:61530 as service (p2, c1, k30).
+1717764376: Client service closed its connection.
+1717764550: New connection from 172.24.0.1:61534 on port 1883.
+1717764550: New client connected from 172.24.0.1:61534 as service (p2, c1, k30).
+1717764550: Client service closed its connection.
+1717764561: New connection from 172.24.0.1:61538 on port 1883.
+1717764561: New client connected from 172.24.0.1:61538 as service (p2, c1, k30).
+1717764561: Client service closed its connection.
+1717764632: New connection from 172.24.0.1:61542 on port 1883.
+1717764632: New client connected from 172.24.0.1:61542 as service (p2, c1, k30).
+1717764632: Client service closed its connection.
+1717764650: New connection from 172.24.0.1:61546 on port 1883.
+1717764650: New client connected from 172.24.0.1:61546 as service (p2, c1, k30).
+1717764650: Client service closed its connection.
+1717764676: Client mqttx_63c4fe09 has exceeded timeout, disconnecting.
+1717764682: New connection from 172.24.0.1:61548 on port 1883.
+1717764682: New client connected from 172.24.0.1:61548 as mqttx_63c4fe09 (p5, c1, k60).
+1717764732: New connection from 172.24.0.1:61562 on port 1883.
+1717764732: New client connected from 172.24.0.1:61562 as service (p2, c1, k30).
