@@ -1,8 +1,8 @@
 package device
 
 type DeviceMessageHeader struct {
-	MessageId string
-	DeviceId  string
+	MessageId  string `json:"message_id"`
+	DeviceType string `json:"device_type"`
 }
 
 type DeviceMessage struct {

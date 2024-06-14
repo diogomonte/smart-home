@@ -19,14 +19,6 @@ func CreateDevice(db *sql.DB, device Device) error {
 	return nil
 }
 
-func UpdateStatus(db *sql.DB, status string) error {
-	_, err := db.Exec("NSERT INTO devices (status) VALUES ($1);", status)
-	if err != nil {
-		return err
-	}
-	return nil
-}
-
 func ListDevices(db *sql.DB) ([]Device, error) {
 	rows, err := db.Query("SELECT id, device_id, device_type, status FROM devices")
 	if err != nil {
