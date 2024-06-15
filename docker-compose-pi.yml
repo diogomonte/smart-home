@@ -7,7 +7,6 @@ services:
       MARIADB_DATABASE: home-automation
       MARIADB_USER: user
       MARIADB_PASSWORD: password
-      MARIADB_MYSQL_LOCALHOST_USER: true
     restart: unless-stopped
     volumes:
       - data:/var/lib/mysql
