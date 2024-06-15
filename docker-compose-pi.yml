@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   mariadb:
-    image: tobi312/rpi-mariadb:10.6-alpine
+    image: tobi312/rpi-mariadb:10.5-debian
     container_name: mariadb
     environment:
       MARIADB_ROOT_PASSWORD: password
@@ -48,7 +48,7 @@ services:
       DB_HOST: mariadb
     build:
       context: .
-      dockerfile: Dockerfile  
+      dockerfile: Dockerfile
     ports:
       - "8090:8090"
     restart: always
