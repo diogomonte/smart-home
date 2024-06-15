@@ -7,12 +7,16 @@ import (
 	"github.com/montediogo/home/src/device"
 	"github.com/montediogo/home/src/mqtt"
 	"log"
+	"os"
 )
 
 func main() {
 	fmt.Println("Initializing home automation app")
-	databaseConnection := db.Connect("mysql", "user:password@tcp(localhost:3306)/home-automation?multiStatements=true")
-	mqttConnection, err := mqtt.Connect("service", "tcp://localhost:1883")
+	dataSource := fmt.Sprintf("user:password@tcp(%s:3306)/home-automation?multiStatements=true", getEnv("DB_HOST", "localhost"))
+	mqttHost := fmt.Sprintf("tcp://%s:1883", getEnv("MQTT_HOST", "localhost"))
+
+	databaseConnection := db.Connect("mysql", dataSource)
+	mqttConnection, err := mqtt.Connect("service", mqttHost)
 	if err != nil {
 		log.Fatal("error connecting to mqtt broker", err)
 	}
@@ -34,4 +38,11 @@ func main() {
 		Db:         databaseConnection,
 	}
 	deviceHttp.InitializeAPI()
+}
+
+func getEnv(key, fallback string) string {
+	if value, ok := os.LookupEnv(key); ok {
+		return value
+	}
+	return fallback
 }

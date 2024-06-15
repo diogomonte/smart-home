@@ -7,6 +7,7 @@ services:
       MYSQL_DATABASE: home-automation
       MYSQL_USER: user
       MYSQL_PASSWORD: password
+    restart: unless-stopped
     volumes:
       - data:/var/lib/mysql
     ports:
@@ -22,6 +23,21 @@ services:
     ports:
       - "1883:1883"
       - "9001:9001"
-
+  app:
+    depends_on:
+      - mariadb
+      - mosquitto
+    links:
+      - mariadb
+      - mosquitto
+    environment:
+      MQTT_HOST: mosquitto
+      DB_HOST: mariadb
+    build:
+      context: .
+      dockerfile: Dockerfile  # Specify the Dockerfile to use
+    ports:
+      - "8090:8090"
+    restart: always
 volumes:
   data:
