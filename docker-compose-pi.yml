@@ -3,10 +3,10 @@ services:
   mariadb:
     image: tobi312/rpi-mariadb:10.6-alpine
     environment:
-      MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: home-automation
-      MYSQL_USER: user
-      MYSQL_PASSWORD: password
+      MARIADB_ROOT_PASSWORD: password
+      MARIADB_DATABASE: home-automation
+      MARIADB_USER: user
+      MARIADB_PASSWORD: password
     restart: unless-stopped
     volumes:
       - data:/var/lib/mysql
