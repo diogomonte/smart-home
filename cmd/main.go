@@ -29,6 +29,7 @@ func main() {
 
 	deviceMqtt := device.MqttHandler{
 		Connection: mqttConnection,
+		Db:         databaseConnection,
 	}
 	deviceMqtt.InitializeMqttHandler()
 
