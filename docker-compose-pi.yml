@@ -12,6 +12,11 @@ services:
       - data:/var/lib/mysql
     ports:
       - "3306:3306"
+    healthcheck:
+      test: [ "CMD", "/usr/local/bin/healthcheck.sh", "--su-mysql", "--connect", "--innodb_initialized" ]
+      interval: 60s
+      timeout: 5s
+      retries: 5
   mosquitto:
     image: eclipse-mosquitto
     container_name: mosquitto
