@@ -37,10 +37,8 @@ services:
       retries: 3
   app:
     depends_on:
-      mariadb:
-        condition: service_healthy
-      mosquitto:
-        condition: service_healthy
+      - mariadb
+      - mosquitto
     links:
       - mariadb
       - mosquitto
