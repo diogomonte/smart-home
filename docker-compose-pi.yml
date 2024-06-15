@@ -3,6 +3,7 @@ services:
   mariadb:
     image: tobi312/rpi-mariadb:10.5-debian
     container_name: mariadb
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_bin
     environment:
       MARIADB_ROOT_PASSWORD: password
       MARIADB_DATABASE: home-automation
