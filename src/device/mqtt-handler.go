@@ -2,7 +2,6 @@ package device
 
 import (
 	"database/sql"
-	"encoding/json"
 	"fmt"
 	device "github.com/montediogo/home/src/device/registry"
 	"github.com/montediogo/home/src/mqtt"
@@ -25,7 +24,7 @@ func (mqttHandler *MqttHandler) handleEventMessage(topic, message string) {
 
 func (mqttHandler *MqttHandler) handleConnectedEvent(topic, message string) {
 	fmt.Printf("message received on topic: %s, %s \n", topic, message)
-	deviceMessage, err := parseMessage(message)
+	deviceMessage, err := ParseMessage(message)
 	if err != nil {
 		log.Fatal("error parsing connected message", err)
 		return
@@ -49,10 +48,4 @@ func (mqttHandler *MqttHandler) handleConnectedEvent(topic, message string) {
 			return
 		}
 	}
-}
-
-func parseMessage(message string) (DeviceMessage, error) {
-	msg := DeviceMessage{}
-	err := json.Unmarshal([]byte(message), &msg)
-	return msg, err
 }

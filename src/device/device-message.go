@@ -1,5 +1,7 @@
 package device
 
+import "encoding/json"
+
 type DeviceMessageHeader struct {
 	MessageId  string `json:"message_id"`
 	DeviceType string `json:"device_type"`
@@ -13,4 +15,10 @@ type DeviceMessage struct {
 
 type ConnectedMessageBody struct {
 	IP string `json:"ip"`
+}
+
+func ParseMessage(message string) (DeviceMessage, error) {
+	msg := DeviceMessage{}
+	err := json.Unmarshal([]byte(message), &msg)
+	return msg, err
 }

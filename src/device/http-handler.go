@@ -3,6 +3,7 @@ package device
 import (
 	"database/sql"
 	"encoding/json"
+	"fmt"
 	device "github.com/montediogo/home/src/device/registry"
 	"github.com/montediogo/home/src/mqtt"
 	"log"
@@ -16,8 +17,7 @@ type Api struct {
 
 func (api *Api) InitializeAPI() {
 	http.HandleFunc("GET /devices", api.getDevices)
-	http.HandleFunc("POST /devices/{deviceId}/register", api.register)
-	http.HandleFunc("POST /devices/{deviceId}/approve", api.approve)
+	http.HandleFunc("GET /devices/{deviceId}/events", api.deviceEvents)
 	http.HandleFunc("POST /devices/{deviceId}/action", api.sendMessageToDevice)
 	err := http.ListenAndServe(":8090", nil)
 	if err != nil {
@@ -56,10 +56,26 @@ func (api *Api) sendMessageToDevice(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func (api *Api) register(writer http.ResponseWriter, r *http.Request) {
+func (api *Api) deviceEvents(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Access-Control-Allow-Origin", "*")
+	w.Header().Set("Access-Control-Expose-Headers", "Content-Type")
 
-}
+	w.Header().Set("Content-Type", "text/event-stream")
+	w.Header().Set("Cache-Control", "no-cache")
+	w.Header().Set("Connection", "keep-alive")
 
-func (api *Api) approve(writer http.ResponseWriter, request *http.Request) {
-
+	deviceId := r.PathValue("deviceId")
+	c := make(chan string)
+	go api.MqttClient.Subscribe(fmt.Sprintf("/device/%s/event", deviceId), 0, func(topic string, message string) {
+		c <- message
+	})
+	for {
+		select {
+		case deviceMessage := <-c:
+			fmt.Fprintf(w, deviceMessage)
+			w.(http.Flusher).Flush()
+		case <-r.Context().Done():
+			return
+		}
+	}
 }
