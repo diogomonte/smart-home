@@ -7,6 +7,7 @@ services:
       MARIADB_DATABASE: home-automation
       MARIADB_USER: user
       MARIADB_PASSWORD: password
+      MARIADB_MYSQL_LOCALHOST_USER: true
     restart: unless-stopped
     volumes:
       - data:/var/lib/mysql
@@ -17,6 +18,7 @@ services:
       interval: 60s
       timeout: 5s
       retries: 5
+    network_mode: bridge
   mosquitto:
     image: eclipse-mosquitto
     container_name: mosquitto
@@ -28,10 +30,18 @@ services:
     ports:
       - "1883:1883"
       - "9001:9001"
+    network_mode: bridge
+    healthcheck:
+      test: [ "CMD-SHELL", "mosquitto_pub -h localhost -t test -m 'test' || exit 1" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
   app:
     depends_on:
-      - mariadb
-      - mosquitto
+      mariadb:
+        condition: service_healthy
+      mosquitto:
+        condition: service_healthy
     links:
       - mariadb
       - mosquitto
@@ -44,5 +54,6 @@ services:
     ports:
       - "8090:8090"
     restart: always
+    network_mode: bridge
 volumes:
   data:
