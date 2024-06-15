@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   mariadb:
-    image: tobi312/rpi-mariadb
+    image: tobi312/rpi-mariadb:10.6-alpine
     environment:
       MYSQL_ROOT_PASSWORD: password
       MYSQL_DATABASE: home-automation
