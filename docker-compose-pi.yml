@@ -3,7 +3,6 @@ services:
   mariadb:
     image: tobi312/rpi-mariadb:10.5-debian
     container_name: mariadb
-    command: --skip-grant-tables
     environment:
       MARIADB_ROOT_PASSWORD: password
       MARIADB_DATABASE: home-automation
