@@ -1,31 +1,13 @@
-/*
- Basic ESP8266 MQTT example
- This sketch demonstrates the capabilities of the pubsub library in combination
- with the ESP8266 board/library.
- It connects to an MQTT server then:
-  - publishes "hello world" to the topic "outTopic" every two seconds
-  - subscribes to the topic "inTopic", printing out any messages
-    it receives. NB - it assumes the received payloads are strings not binary
-  - If the first character of the topic "inTopic" is an 1, switch ON the ESP Led,
-    else switch it off
- It will reconnect to the server if the connection is lost using a blocking
- reconnect function. See the 'mqtt_reconnect_nonblocking' example for how to
- achieve the same result without blocking the main loop.
- To install the ESP8266 board, (using Arduino 1.6.4+):
-  - Add the following 3rd party board manager under "File -> Preferences -> Additional Boards Manager URLs":
-       http://arduino.esp8266.com/stable/package_esp8266com_index.json
-  - Open the "Tools -> Board -> Board Manager" and click install for the ESP8266"
-  - Select your ESP8266 in "Tools -> Board"
-*/
-
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
 // Update these with values suitable for your network.
+const int soil_pin = A0;
+
 
 const char* ssid = "Wifi6EE0";
 const char* password = "cgb77dgeg";
-const char* mqtt_server = "broker.hivemq.com";
+const char* mqtt_server = "raspberrypi";
 const char* action_topic = "/device/monstera/action";
 const char* event_topic = "/device/monstera/event";
 const char* connected_topic = "/device/monstera/connected";
@@ -92,7 +74,7 @@ void reconnect() {
     if (client.connect(clientId.c_str())) {
       Serial.println("connected");
       String message_id = String(random(0xffff), HEX);
-      String message = create_mqtt_message("mostrera", message_id, "ip", WiFi.localIP().toString());
+      String message = create_mqtt_message("plant", "monstera", message_id, "ip", WiFi.localIP().toString());
       client.publish(connected_topic, message.c_str());
       // ... and resubscribe
       client.subscribe(action_topic);
@@ -122,27 +104,27 @@ void loop() {
   client.loop();
 
   unsigned long now = millis();
-  if (now - lastMsg > 2000) {
+  if (now - lastMsg > 10000) {
     lastMsg = now;
     String message_id = String(random(0xffff), HEX);
-    String message = create_mqtt_message("mostrera", message_id, "ip", WiFi.localIP().toString());
+    String message = create_mqt_event_message("plant", "monstera", message_id, "moisture", analogRead(soil_pin));
     client.publish(event_topic, message.c_str());
   }
 }
 
-String create_mqt_event_message(String device_id, String messageId, String event_key, String event) {
+String create_mqt_event_message(String device_type, String device_id, String messageId, String event_key, int event) {
   String message = "";
   message.concat("{");
-  message.concat("\"header\": {\"message_id\": \"" + messageId + "\", \"device_id\": \""+ device_id +"\"},");
-  message.concat("\"body\": {\"" + event_key + "\":\"" + event + "\"}");
+  message.concat("\"header\": {\"message_id\": \"" + messageId + "\", \"device_id\": \""+ device_id +"\", \"device_type\": \""+ device_type +"\"},");
+  message.concat("\"body\": {\"" + event_key + "\":" + event + "}");
   message.concat("}");
   return message;
 }
 
-String create_mqtt_message(String device_id, String messageId, String event_key, String event) {
+String create_mqtt_message(String device_type, String device_id, String messageId, String event_key, String event) {
   String message = "";
   message.concat("{");
-  message.concat("\"header\": {\"message_id\": \"" + messageId + "\", \"device_id\": \""+ device_id +"\"},");
+  message.concat("\"header\": {\"message_id\": \"" + messageId + "\", \"device_id\": \""+ device_id +"\", \"device_type\": \""+ device_type +"\"},");
   message.concat("\"body\": {\"" + event_key + "\":\"" + event + "\"}");
   message.concat("}");
   return message;
