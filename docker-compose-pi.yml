@@ -2,6 +2,7 @@ version: '3.3'
 services:
   mariadb:
     image: tobi312/rpi-mariadb:10.6-alpine
+    container_name: mariadb
     environment:
       MARIADB_ROOT_PASSWORD: password
       MARIADB_DATABASE: home-automation
@@ -9,7 +10,7 @@ services:
       MARIADB_PASSWORD: password
     restart: unless-stopped
     volumes:
-      - data:/var/lib/mysql
+      - data:/var/lib/mysql:rw
     ports:
       - "3306:3306"
     healthcheck:
@@ -23,9 +24,9 @@ services:
     container_name: mosquitto
     restart: unless-stopped
     volumes:
-      - ./mosquitto:/mosquitto
-      - ./mosquitto/data:/mosquitto/data
-      - ./mosquitto/log:/mosquitto/log
+      - ./mosquitto:/mosquitto:rw
+      - ./mosquitto/data:/mosquitto/data:rw
+      - ./mosquitto/log:/mosquitto/log:rw
     ports:
       - "1883:1883"
       - "9001:9001"
@@ -47,7 +48,7 @@ services:
       DB_HOST: mariadb
     build:
       context: .
-      dockerfile: Dockerfile  # Specify the Dockerfile to use
+      dockerfile: Dockerfile  
     ports:
       - "8090:8090"
     restart: always
