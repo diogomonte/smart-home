@@ -3,15 +3,21 @@ services:
   mariadb:
     image: mariadb
     environment:
-      MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: home-automation
-      MYSQL_USER: user
-      MYSQL_PASSWORD: password
+      MARIADB_ROOT_PASSWORD: password
+      MARIADB_DATABASE: home-automation
+      MARIADB_USER: user
+      MARIADB_PASSWORD: password
     restart: unless-stopped
     volumes:
       - data:/var/lib/mysql
     ports:
       - "3306:3306"
+    network_mode: bridge
+    healthcheck:
+      test: [ "CMD", "/usr/local/bin/healthcheck.sh", "--su-mysql", "--connect", "--innodb_initialized" ]
+      interval: 60s
+      timeout: 5s
+      retries: 5
   mosquitto:
     image: eclipse-mosquitto
     container_name: mosquitto
@@ -23,6 +29,12 @@ services:
     ports:
       - "1883:1883"
       - "9001:9001"
+    network_mode: bridge
+    healthcheck:
+      test: [ "CMD-SHELL", "mosquitto_pub -h localhost -t test -m 'test' || exit 1" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
   app:
     depends_on:
       - mariadb
@@ -39,5 +51,6 @@ services:
     ports:
       - "8090:8090"
     restart: always
+    network_mode: bridge
 volumes:
   data:

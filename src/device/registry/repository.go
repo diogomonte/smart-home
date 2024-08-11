@@ -13,10 +13,10 @@ const (
 )
 
 type Device struct {
-	Id         int
-	DeviceId   string
-	DeviceType string
-	Status     DeviceStatus
+	Id         int          `json:"id"`
+	DeviceId   string       `json:"deviceId"`
+	DeviceType string       `json:"deviceType"`
+	Status     DeviceStatus `json:"status"`
 }
 
 func CreateDevice(db *sql.DB, device Device) error {
