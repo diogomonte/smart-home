@@ -6,7 +6,6 @@ import (
 	"fmt"
 	device "github.com/montediogo/home/src/device/registry"
 	"github.com/montediogo/home/src/mqtt"
-	"log"
 	"net/http"
 )
 
@@ -19,10 +18,6 @@ func (api *Api) InitializeAPI() {
 	http.HandleFunc("GET /devices", api.getDevices)
 	http.HandleFunc("GET /devices/{deviceId}/events", api.deviceEvents)
 	http.HandleFunc("POST /devices/{deviceId}/action", api.sendMessageToDevice)
-	err := http.ListenAndServe(":8090", nil)
-	if err != nil {
-		log.Fatal("error initializing http server")
-	}
 }
 
 func (api *Api) getDevices(w http.ResponseWriter, r *http.Request) {

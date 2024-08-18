@@ -2,11 +2,13 @@ package main
 
 import (
 	"fmt"
+	"github.com/montediogo/home/src/data"
 	"github.com/montediogo/home/src/db"
 	"github.com/montediogo/home/src/db/migrator"
 	"github.com/montediogo/home/src/device"
 	"github.com/montediogo/home/src/mqtt"
 	"log"
+	"net/http"
 	"os"
 )
 
@@ -39,6 +41,14 @@ func main() {
 		Db:         databaseConnection,
 	}
 	deviceHttp.InitializeAPI()
+
+	api := data.API{}
+	api.InitializeAPI()
+
+	err = http.ListenAndServe(":8090", nil)
+	if err != nil {
+		log.Fatal("error initializing http server")
+	}
 }
 
 func getEnv(key, fallback string) string {
