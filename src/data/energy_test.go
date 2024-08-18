@@ -5,30 +5,27 @@ import "testing"
 type MockPrices struct {
 }
 
-func (p MockPrices) fetchPrices() (prices, error) {
-	mockData := prices{
-		Prices: []PricingHour{
-			{
-				Time:     "2024-04-28T23:00:00",
-				Area:     "DK2",
-				PriceDkk: 370.720001,
-				PriceEur: 49.709999,
-			},
-			{
-				Time:     "2024-04-27T22:00:00",
-				Area:     "DK2",
-				PriceDkk: 306.510010,
-				PriceEur: 41.099998,
-			},
-			{
-				Time:     "2024-04-26T22:00:00",
-				Area:     "DK2",
-				PriceDkk: 304.510010,
-				PriceEur: 40.099998,
-			},
+func (p MockPrices) fetchPrices() ([]PricingHourResponse, error) {
+	return []PricingHourResponse{
+		{
+			Time:     "2024-04-28T23:00:00",
+			Area:     "DK2",
+			PriceDkk: 370.720001,
+			PriceEur: 49.709999,
 		},
-	}
-	return mockData, nil
+		{
+			Time:     "2024-04-27T22:00:00",
+			Area:     "DK2",
+			PriceDkk: 306.510010,
+			PriceEur: 41.099998,
+		},
+		{
+			Time:     "2024-04-26T22:00:00",
+			Area:     "DK2",
+			PriceDkk: 304.510010,
+			PriceEur: 40.099998,
+		},
+	}, nil
 }
 
 func TestFetchEnergy(t *testing.T) {

@@ -3,12 +3,12 @@ package data
 import "errors"
 
 type PriceOverView struct {
-	AllPrices []PricingHour
-	Cheapest  PricingHour
+	AllPrices []PricingHourResponse
+	Cheapest  PricingHourResponse
 }
 
 func ListEnergyPrices() (PriceOverView, error) {
-	pricesApi := prices{}
+	pricesApi := PricesResponse{}
 	return fetchEnergy(pricesApi)
 }
 
@@ -18,14 +18,14 @@ func fetchEnergy(pricing pricing) (PriceOverView, error) {
 		return PriceOverView{}, errors.New("error fetching prices")
 	}
 	return PriceOverView{
-		AllPrices: prices.Prices,
+		AllPrices: prices,
 		Cheapest:  findCheapestPrice(prices),
 	}, nil
 }
 
-func findCheapestPrice(prices prices) PricingHour {
-	var cheapestPrice = prices.Prices[0]
-	for _, price := range prices.Prices {
+func findCheapestPrice(prices []PricingHourResponse) PricingHourResponse {
+	var cheapestPrice = prices[0]
+	for _, price := range prices {
 		if price.PriceDkk < cheapestPrice.PriceDkk {
 			cheapestPrice = price
 		}
