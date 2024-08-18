@@ -3,8 +3,8 @@ package data
 import "errors"
 
 type PriceOverView struct {
-	AllPrices []PricingHourResponse
-	Cheapest  PricingHourResponse
+	AllPrices []PricingHourResponse `json:"all_prices"`
+	Cheapest  PricingHourResponse   `json:"cheapest_price"`
 }
 
 func ListEnergyPrices() (PriceOverView, error) {
