@@ -5,8 +5,8 @@
 const int soil_pin = A0;
 
 
-const char* ssid = "Wifi6EE0";
-const char* password = "cgb77dgeg";
+const char* ssid = "WifiF370";
+const char* password = "9d6a2beab";
 const char* mqtt_server = "raspberrypi";
 const char* action_topic = "/device/monstera/action";
 const char* event_topic = "/device/monstera/event";
