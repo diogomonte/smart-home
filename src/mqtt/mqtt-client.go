@@ -26,6 +26,7 @@ func (c mqttConnection) Subscribe(topic string, qos byte, callback func(string, 
 }
 
 func (c mqttConnection) Publish(topic string, message string) error {
+	log.Printf("Publishing message on topic %s - %s", topic, message)
 	token := c.client.Publish(topic, 0, false, message)
 	return token.Error()
 }

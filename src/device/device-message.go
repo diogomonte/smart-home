@@ -17,6 +17,11 @@ type ConnectedMessageBody struct {
 	IP string `json:"ip"`
 }
 
+type TemperatureMessageBody struct {
+	Temperature float32 `json:"temperature"`
+	SunLight    float32 `json:"sun_light"`
+}
+
 func ParseMessage(message string) (DeviceMessage, error) {
 	msg := DeviceMessage{}
 	err := json.Unmarshal([]byte(message), &msg)
