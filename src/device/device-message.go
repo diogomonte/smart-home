@@ -2,15 +2,21 @@ package device
 
 import "encoding/json"
 
-type DeviceMessageHeader struct {
+type DeviceType string
+
+const (
+	DeviceTypePlant = "plant"
+)
+
+type MessageHeader struct {
 	MessageId  string `json:"message_id"`
 	DeviceType string `json:"device_type"`
 	DeviceId   string `json:"device_id"`
 }
 
-type DeviceMessage struct {
-	Header DeviceMessageHeader `json:"header"`
-	Body   interface{}         `json:"body"`
+type Message struct {
+	Header MessageHeader `json:"header"`
+	Body   interface{}   `json:"body"`
 }
 
 type ConnectedMessageBody struct {
@@ -22,8 +28,12 @@ type TemperatureMessageBody struct {
 	SunLight    float32 `json:"sun_light"`
 }
 
-func ParseMessage(message string) (DeviceMessage, error) {
-	msg := DeviceMessage{}
+type PlantMessageBody struct {
+	SoilMoisture float32 `json:"moisture"`
+}
+
+func ParseMessage(message string) (Message, error) {
+	msg := Message{}
 	err := json.Unmarshal([]byte(message), &msg)
 	return msg, err
 }

@@ -2,7 +2,6 @@ package device
 
 import (
 	"database/sql"
-	"encoding/json"
 	"fmt"
 	device "github.com/montediogo/home/src/device/registry"
 	"github.com/montediogo/home/src/mqtt"
@@ -27,22 +26,8 @@ func (mqttHandler *MqttHandler) handleEventMessage(topic, message string) {
 		return
 	}
 
-	deviceId := deviceMessage.Header.DeviceId
 	deviceType := deviceMessage.Header.DeviceType
-
-	topic = fmt.Sprintf("/internal/%s/%s", deviceId, deviceType)
-
-	jsonByteArray, err := json.Marshal(deviceMessage.Body)
-	if err != nil {
-		log.Fatal("error parsing event message body", err)
-		return
-	}
-
-	err = mqttHandler.Connection.Publish(topic, string(jsonByteArray))
-	if err != nil {
-		log.Fatal("error publishing message to internal topic", err)
-		return
-	}
+	HandleDeviceMessage(deviceType, deviceMessage.Body)
 }
 
 func (mqttHandler *MqttHandler) handleConnectedEvent(topic, message string) {
